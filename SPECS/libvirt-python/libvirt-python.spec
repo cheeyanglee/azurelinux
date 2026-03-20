@@ -3,7 +3,7 @@
 
 Summary:        The libvirt virtualization API python3 binding
 Name:           libvirt-python
-Version:        10.0.0
+Version:        10.10.0
 Release:        1%{?dist}
 License:        GPLv2+ and LGPLv2+
 Vendor:         Microsoft Corporation
@@ -76,7 +76,10 @@ pip3 install iniconfig
 %{python3_sitearch}/*egg-info
 
 %changelog
-* Wed Mar 06 2024 Brian Fjeldstad <bfjelds@microsoft.com> - 10..00-1
+* Fri Mar 20 2026 Lee Chee Yang <chee.yang.lee@intel.com> - 10.10.0-1
+- Upgrade to 10.10.0 to align with libvirt
+
+* Wed Mar 06 2024 Brian Fjeldstad <bfjelds@microsoft.com> - 10.0.0-1
 - Upgrade to 10.0.0.
 
 * Wed Jan 05 2022 Pawel Winogrodzki <pawelwi@microsoft.com> - 7.10.0-1
